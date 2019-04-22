@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><link href=favicon.ico rel=icon type=image/x-icon><link rel=stylesheet type=text/css href=static/reset.css><title>cc-music</title><script>(function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          docEl.style.fontSize = 100 * (clientWidth / 350) + 'px';
+        };
+      if (!doc.addEventListener) {
+        return;
+      }
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+      recalc()
+    })(document, window)</script><link href=./static/css/app.fe264813df25098c7290526d6b9016fd.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.c623996e601cbccc1608.js></script><script type=text/javascript src=./static/js/vendor.fdabf074515f68c5a6c2.js></script><script type=text/javascript src=./static/js/app.6e2153b53396ea80f42b.js></script></body></html>
